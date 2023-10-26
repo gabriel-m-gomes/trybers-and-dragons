@@ -1,7 +1,7 @@
 abstract class Race {
   constructor(private _name: string, private _dexterity: number) {}
   
-  static createdRacesInstances(): void {
+  static createdRacesInstances(): number {
     throw new Error('Not implemented');
   }
 
